@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    font-family: 'Droid Sans', arial, serif;
+}
+h1,h2,h3,h4,h5 {
+    margin: 0px;
+    color:#FF50B6;
+}
+
+#location{
+    margin-bottom:6px;
+	text-shadow:rgba(0,0,0,0.5) 0px 1px 0, rgba(0,0,0,0.5) 0 -1px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+	padding-bottom:2px;
+	display:none;
+}
+
+#location span{
+    color:#fff;
+	display:block;
+	font-size:12px;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.highlight{
+    color:#E6121D;
+	text-decoration: underline;
+}
+
+.highlight a{
+    color:#E6121D;
+	text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+#mainmap {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#mainmap > div > div:nth-child(3) {
+ display:none;
+}
+
+#vwraper {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 100;
+    background-image: url(opbg.png);
+    color: #FFFFFF;
+    padding:13px;
+    overflow:hidden;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#loader {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    background-color: #000000;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    background-image: url(loader.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 100;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    display: none;
+	padding:5px;
+}
